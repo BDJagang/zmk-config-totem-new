@@ -2,21 +2,21 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: battery_reporting
-      url-base: https://github.com/ask-786
-    - name: englmaxi
-      url-base: https://github.com/englmaxi
+#    - name: battery_reporting
+#      url-base: https://github.com/ask-786
+#    - name: englmaxi
+#      url-base: https://github.com/englmaxi
+    - name: azumafuji
+      url-base: https://github.com/azumafuji
+    - name: janpfisher
+      url-base: https://github.com/janpfischer
   projects:
-    # - name: zmk
-    #   remote: zmkfirmware
-    #   revision: main
-    #   import: app/west.yml
     - name: zmk
-      remote: battery_reporting
-      revision: feat/battery-reporting
-      import: app/west.yml
-    - name: zmk-dongle-display
-      remote: englmaxi
+      remote: zmkfirmware
       revision: main
+      import: app/west.yml
+    - name: zmk-dongle-screen
+      remote: janpfisher
+      revision: upgrade-4.1
   self:
     path: config
