@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: battery_reporting
       url-base: https://github.com/ask-786
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
   projects:
     # - name: zmk
     #   remote: zmkfirmware
@@ -13,5 +15,8 @@ manifest:
       remote: battery_reporting
       revision: feat/battery-reporting
       import: app/west.yml
+    - name: zmk-config
+      remote: englmaxi
+      revision: main
   self:
     path: config
