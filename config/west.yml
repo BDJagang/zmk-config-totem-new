@@ -15,7 +15,7 @@ manifest:
       remote: battery_reporting
       revision: feat/battery-reporting
       import: app/west.yml
-    - name: zmk-config
+    - name: zmk-dongle-display
       remote: englmaxi
       revision: main
   self:
